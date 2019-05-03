@@ -104,6 +104,10 @@ let variable: any; == let variable
 
 En TS los tipos primitivos y los objetos poseen el mismo nombre pero con la diferencia de que estos últimos se escriben con la primera letra en mayúsculas.
 
+Template String `Esto es un template String` --> Permite escribir tesxto en diferentes lineas y además incluir expresions
+`Esto es un Template String que permite expresiones mediante $[espresion]
+
+
 
 
 
