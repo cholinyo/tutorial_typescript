@@ -9,28 +9,28 @@ Tutorial de TypeScript
 2. [Operadores](#id5)
 2. [Control de flujo](#id6)
 
-<div id='id1' />
-## Comandos
+
+## Comandos <a name="id1"></a>
 1. Instalat ts desde npm --> npm install -g typescript
 2. Compilar archivo -->  tsc *.ts (genera el archivo *.js)
 
-<div id='id2' />
-## Ficheros
 
-<div id='id3' />
-## Variables
+## Ficheros <a name="id2"></a>
+
+
+## Variables <a name="id3"></a>
 
 * let --> Restringe su uso al ambito de un bloque de texto. 
 * var --> Solo accesible en su función
 * Podemos declarar variables en 1 linea separadas por comas. let var1, var2, ar3;
 * NaN --> La variable no está inicializada
 
-<div id='id4' />
-## Constantes
+
+## Constantes <a name="id4"></a>
 
 * const VARIABLE
-<div id='id5' />
-## Operadores
+
+## Operadores <a name="id5"></a>
  * ++, --> Solo para los tipos any, number y enum La diferancia entre --num y num-- es el orden en el que se ejecuta el operador
  * +,- --> Sólo para los tipos number, string, any y enum. Convierten un valor de tipo anu a string
 * ! --> Negación. También puede convertir un String a boolean 
@@ -61,8 +61,8 @@ sum(1, ...numbers); // pasamos el array expandido
 let x:number = 10;
 let z:number = x == 10 ? 1 : 100; // 1
 ~~~
-<div id='id6' />
-## Control de flujo
+
+## Control de flujo <a name="id6"></a>
 ### Selectivas
 * if
 * switch
