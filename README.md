@@ -4,10 +4,11 @@ Tutorial de TypeScript
 **Índice**
 1. [Comandos](#id1)
 2. [Ficheros](#id2)
-2. [Variables](#id3)
-2. [Constantes](#id4)
-2. [Operadores](#id5)
-2. [Control de flujo](#id6)
+3. [Variables](#id3)
+4. [Constantes](#id4)
+5. [Operadores](#id5)
+6. [Control de flujo](#id6)
+7. [Tipos primitivos](#id6)
 
 
 ## Comandos <a name="id1"></a>
@@ -79,11 +80,29 @@ let z:number = x == 10 ? 1 : 100; // 1
 * return
 
 
+## Tipos <a name="id6"></a>
 
+let variable: tipo;
+Todos los tipos provienen de uno superior llamado Any. El tipo Any se refiere a cualquier cosa. Si declaramos una variable sin tipar sería lo mismo que hacerlo con Any.
 
+~~~
+let variable: any; == let variable
+~~~
 
+### Tipos primitivos <a name="id7"></a>
 
+|Primitivo | Objeto | Uso |
+| -- | -- | -- | 
+| number | Number | Numeros |
+| string | String | Carácteres y cadenas |
+| boolean | Bolean |  trus/false|
+| undefined | Undefined | Sin valor |
+| null | Null | Valor nulo |
+| void | Void | Ausencia de valor|
+|never |  | Valores que no pueden ocurrir |
+|symbol | Symbol | Valores únicos usados como token |
 
+En TS los tipos primitivos y los objetos poseen el mismo nombre pero con la diferencia de que estos últimos se escriben con la primera letra en mayúsculas.
 
 
 
