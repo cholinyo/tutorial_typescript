@@ -63,6 +63,7 @@ let z:number = x == 10 ? 1 : 100; // 1
 ~~~
 
 ## Control de flujo <a name="id6"></a>
+
 ### Selectivas
 * if
 * switch
