@@ -1,13 +1,23 @@
 # tutorial_typescript
 Tutorial de TypeScript
 
+**Índice**
+1. [Comandos](#id1)
+2. [Ficheros](#id2)
+2. [Variables](#id3)
+2. [Constantes](#id4)
+2. [Operadores](#id5)
+2. [Control de flujo](#id6)
+
+<div id='id1' />
 ## Comandos
 1. Instalat ts desde npm --> npm install -g typescript
 2. Compilar archivo -->  tsc *.ts (genera el archivo *.js)
 
-
+<div id='id2' />
 ## Ficheros
 
+<div id='id3' />
 ## Variables
 
 * let --> Restringe su uso al ambito de un bloque de texto. 
@@ -15,10 +25,11 @@ Tutorial de TypeScript
 * Podemos declarar variables en 1 linea separadas por comas. let var1, var2, ar3;
 * NaN --> La variable no está inicializada
 
+<div id='id4' />
 ## Constantes
 
 * const VARIABLE
-
+<div id='id5' />
 ## Operadores
  * ++, --> Solo para los tipos any, number y enum La diferancia entre --num y num-- es el orden en el que se ejecuta el operador
  * +,- --> Sólo para los tipos number, string, any y enum. Convierten un valor de tipo anu a string
@@ -50,6 +61,27 @@ sum(1, ...numbers); // pasamos el array expandido
 let x:number = 10;
 let z:number = x == 10 ? 1 : 100; // 1
 ~~~
+<div id='id6' />
+## Control de flujo
+### Selectivas
+* if
+* switch
+### Iterativas
+* while
+* do-while
+* for
+* for in
+* for-of (Esta forma de for es casi idéntica al for-in, con la salvedad de que en cada iteracción lo que se vuelca en la variable temporal es el valor de la posición y no el índice.
+### Para bucles
+* break
+* comtinue 
+* return
+
+
+
+
+
+
 
 
 
